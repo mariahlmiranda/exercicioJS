@@ -86,3 +86,11 @@ input.error {
     outline-color: #c75656;
 }
 
+.success-message, .error-message {
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+
+.fade-out {
+    opacity: 0;
+}
